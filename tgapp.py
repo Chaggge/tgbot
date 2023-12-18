@@ -2,6 +2,8 @@ from flask import Flask, request
 import telebot
 import os
 
+TOKEN_TG = os.environ.get("TOKEN_TG")
+
 app = Flask(__name__)
 
 # Установите токен вашего бота
