@@ -10,7 +10,7 @@ app = Flask(__name__)
 bot = telebot.TeleBot(TOKEN_TG)
 
 # Установите URL для вебхука
-WEBHOOK_URL = 'https://536b-212-164-38-228.ngrok-free.app/' + TOKEN_TG
+WEBHOOK_URL = 'https://echotg.onrender.com/' + TOKEN_TG
 
 # Установите вебхук
 bot.remove_webhook()
