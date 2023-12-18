@@ -5,7 +5,6 @@ import os
 app = Flask(__name__)
 
 # Установите токен вашего бота
-TOKEN_TG = '6760992499:AAG-FZhaUtGAW-3fc0dmHgZFvkiQMltvWyY'
 
 # Создайте экземпляр бота
 bot = telebot.TeleBot(TOKEN_TG)
